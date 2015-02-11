@@ -1,5 +1,6 @@
 {
     "dark_seer": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -10,10 +11,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": true,
         "is_disabler": true,
         "is_jungler": false
     },
     "night_stalker": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -24,10 +27,12 @@
         "is_roamer": true,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "medusa": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -38,10 +43,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "undying": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -52,10 +59,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": false,
+        "is_solo": true,
         "is_disabler": true,
         "is_jungler": false
     },
     "treant_protector": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -66,10 +75,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "riki": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -80,10 +91,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "storm_spirit": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -94,10 +107,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "tusk": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -108,10 +123,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "sniper": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -122,10 +139,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "anti_mage": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -136,10 +155,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "pugna": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -150,10 +171,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "ogre_magi": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -164,10 +187,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "bane": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -178,10 +203,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "windranger": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -192,10 +219,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "crystal_maiden": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -206,10 +235,12 @@
         "is_roamer": true,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "ancient_apparition": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -220,10 +251,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "morphling": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -234,10 +267,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "natures_prophet": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -248,10 +283,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": true
     },
     "shadow_demon": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -262,10 +299,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "queen_of_pain": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -276,10 +315,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "batrider": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -290,10 +331,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "abaddon": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -304,10 +347,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "kunkka": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -318,10 +363,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "phantom_lancer": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -332,10 +379,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "weaver": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -346,10 +395,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": true,
         "is_disabler": false,
         "is_jungler": false
     },
     "outworld_devourer": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -360,10 +411,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "clinkz": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -374,10 +427,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "earthshaker": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -388,10 +443,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "lion": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -402,10 +459,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "necrophos": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -416,10 +475,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "chen": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -430,10 +491,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": true
     },
     "disruptor": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -444,10 +507,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "venomancer": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -458,10 +523,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "invoker": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": true,
@@ -472,10 +539,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "juggernaut": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -486,10 +555,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "templar_assassin": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -500,10 +571,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "ursa": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -514,10 +587,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": true
     },
     "meepo": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -528,10 +603,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "elder_titan": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -542,10 +619,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "vengeful_spirit": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -556,10 +635,12 @@
         "is_roamer": true,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "tinker": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -570,10 +651,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": true,
         "is_disabler": false,
         "is_jungler": false
     },
     "broodmother": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -584,10 +667,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "dragon_knight": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -598,10 +683,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "huskar": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -612,10 +699,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "techies": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -626,10 +715,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "phantom_assassin": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -640,10 +731,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": true,
         "is_disabler": false,
         "is_jungler": false
     },
     "omniknight": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -654,10 +747,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "terrorblade": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -668,10 +763,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "alchemist": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -682,10 +779,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": true
     },
     "slark": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": true,
@@ -696,10 +795,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "mirana": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -710,10 +811,12 @@
         "is_roamer": true,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": true,
         "is_disabler": true,
         "is_jungler": false
     },
     "shadow_fiend": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -724,10 +827,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "lifestealer": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -738,10 +843,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": true
     },
     "centaur_warrunner": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -752,10 +859,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "puck": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -766,10 +875,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": true,
         "is_disabler": true,
         "is_jungler": false
     },
     "arc_warden": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -780,10 +891,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "lone_druid": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -794,10 +907,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": true,
         "is_disabler": false,
         "is_jungler": true
     },
     "luna": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -808,10 +923,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "pit_lord": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -822,10 +939,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "razor": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -836,10 +955,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "skywrath_mage": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -850,10 +971,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "tiny": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -864,10 +987,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "pudge": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -878,10 +1003,12 @@
         "is_roamer": true,
         "is_durable": true,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "spirit_breaker": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -892,10 +1019,12 @@
         "is_roamer": true,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "witch_doctor": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -906,10 +1035,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "nyx_assassin": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -920,10 +1051,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "gyrocopter": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -934,10 +1067,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "silencer": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -948,10 +1083,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "enigma": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -962,10 +1099,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": true
     },
     "bounty_hunter": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": true,
@@ -976,10 +1115,12 @@
         "is_roamer": true,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": true,
         "is_disabler": true,
         "is_jungler": false
     },
     "lina": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": true,
@@ -990,10 +1131,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "sand_king": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -1004,10 +1147,12 @@
         "is_roamer": true,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "brewmaster": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": true,
@@ -1018,10 +1163,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "wraith_king": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1032,10 +1179,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "clockwerk": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -1046,10 +1195,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": false,
+        "is_solo": true,
         "is_disabler": true,
         "is_jungler": false
     },
     "faceless_void": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1060,10 +1211,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "bristleback": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -1074,10 +1227,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "lich": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -1088,10 +1243,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "warlock": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1102,10 +1259,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "visage": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": true,
@@ -1116,10 +1275,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "keeper_of_the_light": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1130,10 +1291,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "legion_commander": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1144,10 +1307,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "slardar": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1158,10 +1323,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "death_prophet": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -1172,10 +1339,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "winter_wyvern": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1186,10 +1355,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "tidehunter": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1200,10 +1371,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": false,
+        "is_solo": true,
         "is_disabler": true,
         "is_jungler": false
     },
     "earth_spirit": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": true,
@@ -1214,10 +1387,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "rubick": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1228,10 +1403,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "enchantress": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": true,
@@ -1242,10 +1419,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": true
     },
     "dazzle": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1256,10 +1435,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "timbersaw": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -1270,10 +1451,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "troll_warlord": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1284,10 +1467,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "magnus": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1298,10 +1483,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "lycanthrope": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1312,10 +1499,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": true
     },
     "chaos_knight": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1326,10 +1515,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "shadow_shaman": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -1340,10 +1531,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "zeus": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -1354,10 +1547,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "phoenix": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -1368,10 +1563,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "leshrac": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": false,
@@ -1382,10 +1579,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "beastmaster": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": true,
         "is_ganker": true,
@@ -1396,10 +1595,12 @@
         "is_roamer": true,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": true
     },
     "bloodseeker": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -1410,10 +1611,12 @@
         "is_roamer": true,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "sven": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1424,10 +1627,12 @@
         "is_roamer": true,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "drow_ranger": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1438,10 +1643,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "jakiro": {
+        "is_mid": false,
         "is_lane_support": true,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1452,10 +1659,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "viper": {
+        "is_mid": true,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -1466,10 +1675,12 @@
         "is_roamer": true,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "naga_siren": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1480,10 +1691,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     },
     "spectre": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1494,10 +1707,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "axe": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1508,10 +1723,12 @@
         "is_roamer": false,
         "is_durable": true,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": true
     },
     "oracle": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": false,
@@ -1522,10 +1739,12 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": false,
+        "is_solo": false,
         "is_disabler": false,
         "is_jungler": false
     },
     "ember_spirit": {
+        "is_mid": false,
         "is_lane_support": false,
         "is_semi_carry": false,
         "is_ganker": true,
@@ -1536,6 +1755,7 @@
         "is_roamer": false,
         "is_durable": false,
         "is_carry": true,
+        "is_solo": false,
         "is_disabler": true,
         "is_jungler": false
     }

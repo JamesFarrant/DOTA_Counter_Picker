@@ -14,6 +14,8 @@ super_list = ["abaddon", "alchemist", "ancient_apparition", "anti_mage", "axe",
               "tiny", "timbersaw", "treant_protector", "troll_warlord", "tusk", "undying", "ursa", "vengeful_spirit",
               "venomancer", "viper", "visage", "warlock", "weaver", "windranger", "witch_doctor", "wraith_king", "zeus"]
 
+offlane_solo = ["bounty_hunter","clockwerk","dark_seer","lone_druid","mirana","puck","weaver","windrunner","undying","tidehunter","phantom_assassin","tinker"]
+mid = ["batrider","puck","queen_of_pain","outworld_devourer","mirana","templar_assassin","invoker","storm_spirit","viper","sniper","bloodseeker","pudge","magnus","nightstalker","dragon_knight","nyx_assassin"]
 from urllib import urlopen
 import lxml.html
 import json
@@ -73,6 +75,8 @@ for h in heroes:
   data['is_escape'] = 'escape' in c
   data['is_semi_carry'] = 'semi-carry' in c
   data['is_support'] = 'support' in c
+  data['is_solo'] = h in offlane_solo
+  data['is_mid'] = h in mid
   data.pop("element",None)
 
   heroes[h] = data

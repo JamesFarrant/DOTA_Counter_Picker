@@ -1,0 +1,23 @@
+{
+    "aggr_tri": {
+        "Offlane Carry": ["carry"],
+        "Trilane Support": ["lane_support","disabler"],
+        "Trilane Support": ["lane_support","disabler"],
+        "Mid": ["mid"],
+        "Safelane Solo": ["solo"]
+    },
+    "jungle": {
+        "Offlane Solo": ["solo"],
+        "Mid": ["mid"],
+        "Jungle": ["jungler"],
+        "Safelane Carry": ["carry"],
+        "Safelane Support": ["lane_support", "support"]
+    },
+    "212": {
+        "Offlane Farm": ["semi_carry","carry","roamer","ganker"],
+        "Offlane Support": ["lane_support"],
+        "Mid": ["mid"],
+        "Safelane Carry": ["carry"],
+        "Safelane Support": ["lane_support","support"]
+    }
+}
