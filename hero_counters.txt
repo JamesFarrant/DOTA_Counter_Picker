@@ -1502,5 +1502,19 @@
         "legion_commander",
         "templar_assassin",
         "beastmaster"
+    ],
+    "timbersaw": [
+        "invoker",
+        "bane",
+        "tiny",
+        "outworld_devourer",
+        "windranger",
+        "disruptor",
+        "lich",
+        "naga_siren",
+        "bane",
+        "brewmaster",
+        "legion_commander",
+        "shadow_shaman"
     ]
 }
