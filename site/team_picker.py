@@ -57,15 +57,15 @@ def sort_by_counter(hero_list, enemy_team):
 
 # load in the data
 
-f = open('hero_counters.txt', 'r')
+f = open('data/hero_counters.txt', 'r')
 counters_file = f.read()
 f.close()
 
-f = open('hero_data.txt', 'r')
+f = open('data/hero_data.txt', 'r')
 data_file = f.read()
 f.close()
 
-f = open('formations.txt', 'r')
+f = open('data/formations.txt', 'r')
 formations_file = f.read()
 f.close()
 
@@ -75,17 +75,22 @@ formations = json.loads(formations_file)
 
 # do things
 
-enemy_heroes = ['shadow_shaman','luna','earthshaker']#'silencer','juggernaut','necrophos','phantom_assassin','lion']
+def counter_team(enemy_heroes,form):
+    team = team_counters(fill_formation(formations[form],enemy_heroes),enemy_heroes)
+    team = {role_candidates:team[role_candidates][:3] for role_candidates in team}
+    return team
 
-team = team_counters(fill_formation(formations["212"],enemy_heroes),enemy_heroes)
-
-team = {role_candidates:team[role_candidates][:3] for role_candidates in team}
-
-print("Countering: "+str(enemy_heroes))
-print("Formation 2-1-2")
-
-print("Team:")
-for role in team:
-    print ("  "+role)
-    for candidate in team[role]:
-        print("    "+str(candidate[0])+ ", "+str(candidate[1]))
+#enemy_heroes = ['shadow_shaman','luna','earthshaker']#'silencer','juggernaut','necrophos','phantom_assassin','lion']
+#
+#team = team_counters(fill_formation(formations["212"],enemy_heroes),enemy_heroes)
+#
+#team = {role_candidates:team[role_candidates][:3] for role_candidates in team}
+#
+#print("Countering: "+str(enemy_heroes))
+#print("Formation 2-1-2")
+#
+#print("Team:")
+#for role in team:
+#    print ("  "+role)
+#    for candidate in team[role]:
+#        print("    "+str(candidate[0])+ ", "+str(candidate[1]))

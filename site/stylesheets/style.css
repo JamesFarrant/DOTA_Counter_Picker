@@ -1,0 +1,150 @@
+@font-face {
+    font-family: WeblySleek;
+    src: url(/img/weblysleek/weblysleekuil.ttf);
+}
+
+html {
+    font-family: WeblySleek;
+    background-color: #22313F;
+}
+
+.selection_box {
+    width:400px;
+}
+
+.role_box {
+    display: inline-block;
+    background-color: #9b59b6;
+    width:100%;
+    height:64px;
+    margin-top:3px;
+    position: relative; 
+    color:white;
+}
+
+.role_name {
+    display:inline;
+    margin-left:20px;
+    float:bottom-left;
+    position: absolute; 
+    bottom: 5px;
+}
+
+.role_pick {
+    display:inline;
+    float:right;
+    margin-left:2px;
+}
+
+.hero_select, .form_select, .output {
+    position: relative;
+    height:64px;
+    display: inline-block;
+
+    width:400px;
+}
+
+/* hero cards */
+
+.hero_card {
+    background-color: #8e44ad;
+    display:inline-block;
+    width:64px;
+    height:64px;
+    text-align: center;
+    margin-left: 1px;
+    margin-right:1px;
+}
+
+.hero_card i {
+    position: relative;
+    top:5px;
+}
+
+.hero_card p {
+    position: relative;
+    bottom:2px;
+    font-size: 1vw;
+}
+
+/* form_select - choose the team's formation */
+
+.form_select {
+    background-color: #F4B350;
+    height:100px;
+    position: relative;
+}
+
+.form_select p {
+    position: relative;
+    top:-10px;
+    left:10px;
+}
+
+.form_select div {
+    background-color: #EB9532;
+    text-align: center;
+    width:32.5%;
+    height:64px;
+    border-color: black;
+    display: inline-block;
+    position: relative;
+    bottom:17px;
+}
+
+.form_select div:hover {
+    background-color: #FDE3A7;
+}
+
+.form_select div p {
+    position: relative;
+    top:5px;
+    left:0px;
+}
+
+/* hero_select - choose the enemy team */
+
+.hero_select {
+    height: 134px;
+}
+
+.hero_select .role_box {
+    background-color: #D64541;
+}
+
+.hero_select .hero_card {
+    background-color: #96281B;
+}
+
+.hero_select .role_box .hero_card:hover {
+    background-color: #D24D57;
+}
+
+.entry_box {
+    background-color: #D64541;
+    height: 64px;
+}
+.entry_box input {
+    background-color: #E74C3C;
+    width:332px;
+    height: 64px;
+    padding-left:10px;
+    font-size:24px;
+    font-family: WeblySleek;
+    border: none;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    white;
+}

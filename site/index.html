@@ -1,0 +1,265 @@
+<link rel="stylesheet" type="text/css" href="stylesheets/dota2minimapheroes.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+<script src="js/lib/fuzzyset.js"></script>
+<script src="js/lib/jquery-2.1.3.min.js"></script>
+<script src="js/main.js"></script>
+
+<div class="selection_box">
+       <div class="hero_select">
+
+              <div class="entry_box">
+                     <input type="text" placeholder="Hero Name" id="hero_entry" 
+                            onKeyUp="updateBox()" 
+                            onKeyPress="return checkSubmit(event)"
+                     />
+                     
+                     <div class="role_pick" id="hero_guess"><div class="hero_card">
+                            <i class="d2mh "></i>
+                     </div></div>
+              </div>
+
+              <div class="role_box" id="enemy_picks"><div class="role_name">Picks</div></div>
+       </div>
+
+       <div class="form_select">
+              <p>Team Formation</p>
+              <div onclick="setForm('212')"><p>2-1-2</p></div>
+              <div onclick="setForm('tri')"><p>Trilane</p></div>
+              <div onclick="setForm('jungle')"><p>Jungle</p></div>
+       </div>
+<div class="output">
+              <div class="role_box" id="role_1_picks"><div class="role_name">Safelane Support</div><div class="role_pick"><div class="hero_card"><i class="d2mh omniknight"></i><p>OMNIKNIGHT</p></div></div><div class="role_pick"><div class="hero_card"><i class="d2mh dazzle"></i><p>DAZZLE</p></div></div><div class="role_pick"><div class="hero_card"><i class="d2mh crystal_maiden"></i><p>CRYSTAL MAIDEN</p></div></div></div>
+              <div class="role_box" id="role_2_picks"><div class="role_name">Offlane Support</div><div class="role_pick"><div class="hero_card"><i class="d2mh omniknight"></i><p>OMNIKNIGHT</p></div></div><div class="role_pick"><div class="hero_card"><i class="d2mh dazzle"></i><p>DAZZLE</p></div></div><div class="role_pick"><div class="hero_card"><i class="d2mh crystal_maiden"></i><p>CRYSTAL MAIDEN</p></div></div></div>
+              <div class="role_box" id="role_3_picks"><div class="role_name">Mid</div><div class="role_pick"><div class="hero_card"><i class="d2mh nyx_assassin"></i><p>NYX ASSASSIN</p></div></div><div class="role_pick"><div class="hero_card"><i class="d2mh storm_spirit"></i><p>STORM SPIRIT</p></div></div><div class="role_pick"><div class="hero_card"><i class="d2mh sniper"></i><p>SNIPER</p></div></div></div>
+              <div class="role_box" id="role_4_picks"><div class="role_name">Safelane Carry</div><div class="role_pick"><div class="hero_card"><i class="d2mh wraith_king"></i><p>WRAITH KING</p></div></div><div class="role_pick"><div class="hero_card"><i class="d2mh luna"></i><p>LUNA</p></div></div><div class="role_pick"><div class="hero_card"><i class="d2mh gyrocopter"></i><p>GYROCOPTER</p></div></div></div>
+              <div class="role_box" id="role_5_picks"><div class="role_name">Offlane Farm</div><div class="role_pick"><div class="hero_card"><i class="d2mh wraith_king"></i><p>WRAITH KING</p></div></div><div class="role_pick"><div class="hero_card"><i class="d2mh luna"></i><p>LUNA</p></div></div><div class="role_pick"><div class="hero_card"><i class="d2mh gyrocopter"></i><p>GYROCOPTER</p></div></div></div>
+       </div>
+
+</div>
+
+<!--
+<div class="output">
+              <div class="role_box" id="role_1_picks"></div>
+              <div class="role_box" id="role_2_picks"></div>
+              <div class="role_box" id="role_3_picks"></div>
+              <div class="role_box" id="role_4_picks"></div>
+              <div class="role_box" id="role_5_picks"></div>
+       </div>
+"abaddon": <i class="d2mh abaddon"></i>
+"alchemist": <i class="d2mh alchemist"></i>
+"ancient_apparition": <i class="d2mh ancient_apparition"></i>
+"anti_mage": <i class="d2mh anti_mage"></i>
+"axe": <i class="d2mh axe"></i>
+"bane": <i class="d2mh bane"></i>
+"batrider": <i class="d2mh batrider"></i>
+"beastmaster": <i class="d2mh beastmaster"></i>
+"bloodseeker": <i class="d2mh bloodseeker"></i>
+"bounty_hunter": <i class="d2mh bounty_hunter"></i>
+"brewmaster": <i class="d2mh brewmaster"></i>
+"bristleback": <i class="d2mh bristleback"></i>
+"broodmother": <i class="d2mh broodmother"></i>
+"centaur_warrunner": <i class="d2mh centaur_warrunner"></i>
+"chaos_knight": <i class="d2mh chaos_knight"></i>
+"chen": <i class="d2mh chen"></i>
+"clinkz": <i class="d2mh clinkz"></i>
+"clockwerk": <i class="d2mh clockwerk"></i>
+"crystal_maiden": <i class="d2mh crystal_maiden"></i>
+"dark_seer": <i class="d2mh dark_seer"></i>
+"dazzle": <i class="d2mh dazzle"></i>
+"death_prophet": <i class="d2mh death_prophet"></i>
+"disruptor": <i class="d2mh disruptor"></i>
+"doom": <i class="d2mh doom"></i>
+"dragon_knight": <i class="d2mh dragon_knight"></i>
+"drow_ranger": <i class="d2mh drow_ranger"></i>
+"earth_spirit": <i class="d2mh earth_spirit"></i>
+"earthshaker": <i class="d2mh earthshaker"></i>
+"elder_titan": <i class="d2mh elder_titan"></i>
+"ember_spirit": <i class="d2mh ember_spirit"></i>
+"enchantress": <i class="d2mh enchantress"></i>
+"enigma": <i class="d2mh enigma"></i>
+"faceless_void": <i class="d2mh faceless_void"></i>
+"gyrocopter": <i class="d2mh gyrocopter"></i>
+"huskar": <i class="d2mh huskar"></i>
+"invoker": <i class="d2mh invoker"></i>
+"io": <i class="d2mh io"></i>
+"jakiro": <i class="d2mh jakiro"></i>
+"juggernaut": <i class="d2mh juggernaut"></i>
+"keeper_of_the_light": <i class="d2mh keeper_of_the_light"></i>
+"kunkka": <i class="d2mh kunkka"></i>
+"legion_commander": <i class="d2mh legion_commander"></i>
+"leshrac": <i class="d2mh leshrac"></i>
+"lich": <i class="d2mh lich"></i>
+"lifestealer": <i class="d2mh lifestealer"></i>
+"lina": <i class="d2mh lina"></i>
+"lion": <i class="d2mh lion"></i>
+"lone_druid": <i class="d2mh lone_druid"></i>
+"luna": <i class="d2mh luna"></i>
+"lycanthrope": <i class="d2mh lycanthrope"></i>
+"magnus": <i class="d2mh magnus"></i>
+"medusa": <i class="d2mh medusa"></i>
+"meepo": <i class="d2mh meepo"></i>
+"mirana": <i class="d2mh mirana"></i>
+"morphling": <i class="d2mh morphling"></i>
+"naga_siren": <i class="d2mh naga_siren"></i>
+"natures_prophet": <i class="d2mh natures_prophet"></i>
+"necrophos": <i class="d2mh necrophos"></i>
+"night_stalker": <i class="d2mh night_stalker"></i>
+"nyx_assassin": <i class="d2mh nyx_assassin"></i>
+"ogre_magi": <i class="d2mh ogre_magi"></i>
+"omniknight": <i class="d2mh omniknight"></i>
+"oracle": <i class="d2mh oracle"></i>
+"outworld_devourer": <i class="d2mh outworld_devourer"></i>
+"phantom_assassin": <i class="d2mh phantom_assassin"></i>
+"phantom_lancer": <i class="d2mh phantom_lancer"></i>
+"phoenix": <i class="d2mh phoenix"></i>
+"puck": <i class="d2mh puck"></i>
+"pudge": <i class="d2mh pudge"></i>
+"pugna": <i class="d2mh pugna"></i>
+"queen_of_pain": <i class="d2mh queen_of_pain"></i>
+"razor": <i class="d2mh razor"></i>
+"riki": <i class="d2mh riki"></i>
+"rubick": <i class="d2mh rubick"></i>
+"sand_king": <i class="d2mh sand_king"></i>
+"shadow_demon": <i class="d2mh shadow_demon"></i>
+"shadow_fiend": <i class="d2mh shadow_fiend"></i>
+"shadow_shaman": <i class="d2mh shadow_shaman"></i>
+"silencer": <i class="d2mh silencer"></i>
+"skywrath_mage": <i class="d2mh skywrath_mage"></i>
+"slardar": <i class="d2mh slardar"></i>
+"slark": <i class="d2mh slark"></i>
+"sniper": <i class="d2mh sniper"></i>
+"spectre": <i class="d2mh spectre"></i
+"spirit_breaker": <i class="d2mh spirit_breaker"></i>
+"storm_spirit": <i class="d2mh storm_spirit"></i>
+"sven": <i class="d2mh sven"></i>
+"techies": <i class="d2mh techies"></i>
+"templar_assassin": <i class="d2mh templar_assassin"></i>
+"terrorblade": <i class="d2mh terrorblade"></i>
+"tidehunter": <i class="d2mh tidehunter"></i>
+"tinker": <i class="d2mh tinker"></i>
+"tiny": <i class="d2mh tiny"></i>
+"timbersaw": <i class="d2mh timbersaw"></i>
+"treant_protector": <i class="d2mh treant_protector"></i>
+"troll_warlord": <i class="d2mh troll_warlord"></i>
+"tusk": <i class="d2mh tusk"></i>
+"undying": <i class="d2mh undying"></i>
+"ursa": <i class="d2mh ursa"></i>
+"vengeful_spirit": <i class="d2mh vengeful_spirit"></i>
+"venomancer": <i class="d2mh venomancer"></i>
+"viper": <i class="d2mh viper"></i>
+"visage": <i class="d2mh visage"></i>
+"warlock": <i class="d2mh warlock"></i>
+"weaver": <i class="d2mh weaver"></i>
+"windranger": <i class="d2mh windranger"></i>
+"witch_doctor": <i class="d2mh witch_doctor"></i>
+"wraith_king": <i class="d2mh wraith_king"></i>
+"zeus"]: <i class="d2mh zeus"></i>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

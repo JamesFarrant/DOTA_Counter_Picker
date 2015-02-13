@@ -1,10 +1,10 @@
 {
-    "aggr_tri": {
-        "Offlane Carry": ["carry"],
+    "tri": {
+        "Safelane Carry": ["carry"],
         "Trilane Support 1": ["lane_support","disabler"],
         "Trilane Support 2": ["lane_support","disabler"],
         "Mid": ["mid"],
-        "Safelane Solo": ["solo"]
+        "Offlane Solo": ["solo"]
     },
     "jungle": {
         "Offlane Solo": ["solo"],
