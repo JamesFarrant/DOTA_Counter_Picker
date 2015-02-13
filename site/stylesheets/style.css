@@ -64,7 +64,7 @@ html {
 .hero_card p {
     position: relative;
     bottom:2px;
-    font-size: 1vw;
+    font-size: 9px;
 }
 
 /* form_select - choose the team's formation */
