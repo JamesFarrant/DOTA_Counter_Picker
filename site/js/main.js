@@ -14,8 +14,8 @@ var HERO_LIST = ["abaddon", "alchemist", "ancient_apparition", "anti_mage", "axe
               "tiny", "timbersaw", "treant_protector", "troll_warlord", "tusk", "undying", "ursa", "vengeful_spirit",
               "venomancer", "viper", "visage", "warlock", "weaver", "windranger", "witch_doctor", "wraith_king", "zeus"]
 
-var EXTRA_NAMES     = ["tide","am","beast","bh","brew","cm","seer"]
-var EXTRA_NAME_REAL = ["tidehunter","anti_mage","beastmaster","bloodseeker","brewmaster","crystal_maiden","dark_seer"]
+var EXTRA_NAMES     = ["oh joy", "GUESS WHO","kotl","tide","am","beast","bh","brew","cm","seer"]
+var EXTRA_NAME_REAL = ["sniper", "juggernaut","keeper_of_the_light","tidehunter","anti_mage","beastmaster","bloodseeker","brewmaster","crystal_maiden","dark_seer"]
 var FUZZY_HEROES = FuzzySet(HERO_LIST.concat(EXTRA_NAMES))
 
 var picked_team = []
@@ -41,21 +41,21 @@ function updateBox() {
     var hero_entry = document.getElementById('hero_entry')
     var hero_guess = document.getElementById('hero_guess')
 
-    matches = FUZZY_HEROES.get(fix_name(hero_entry.value))
+    matches = FUZZY_HEROES.get(hero_entry.value)
     if(matches == null || matches.length == 0) { return; }
-    hero_guess.innerHTML = getHeroCode(matches[0][1])
+    hero_guess.innerHTML = getHeroCode(fix_name(matches[0][1]),matches[0][1])
 }
 
 function chooseHero() {
     if(picked_team.length > 4) { return; }
     var hero_entry = document.getElementById('hero_entry')
-    matches = FUZZY_HEROES.get(fix_name(hero_entry.value))
+    matches = FUZZY_HEROES.get(hero_entry.value)
     if(matches == null || matches.length == 0) { return; }
     hero_entry.value = ""
+    hero = fix_name(matches[0][1])
+    if(picked_team.indexOf(hero) == -1) {
 
-    if(picked_team.indexOf(matches[0][1]) == -1) {
-
-      picked_team.push(matches[0][1])
+      picked_team.push(hero)
 
       updateEnemyPicks()
 
@@ -89,8 +89,9 @@ function checkSubmit(e) {
    }
 }
 
-function getHeroCode(name) {
-    return '<div class="hero_card"><i class="d2mh '+name+'"></i><p>'+pretty_name(name)+'</p></div>'
+function getHeroCode(name,displayName) {
+  if(displayName==null) { displayName = name}
+  return '<div class="hero_card"><i class="d2mh '+name+'"></i><p>'+pretty_name(displayName)+'</p></div>'
 }
 var result
 
