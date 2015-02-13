@@ -8,6 +8,16 @@ html {
     background-color: #22313F;
 }
 
+.role_box, .form_select, .output, .hero_card {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+}
+
 .selection_box {
     width:400px;
 }
