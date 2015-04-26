@@ -1,2 +1,3 @@
 # DotaHut-Scraper
-Scrapes Dota Hut (www.dotahut.com), and according to user input (ie, hero name) prints counters to that hero.
+
+Selects counters to heros in DOTA by finding them in a JSON database and outputting them on a web page.
